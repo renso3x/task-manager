@@ -1,0 +1,18 @@
+{
+    "env": {
+        "browser": true,
+        "ES2021": true
+    },
+  "parser": "@typescript-eslint/parser",
+  "extends": ["plugin:@typescript-eslint/recommended", "prettier"],
+  "parserOptions": { "ecmaVersion": "latest", "sourceType": "module" },
+  "rules": {},
+    "plugins": [
+        "prettier"
+    ],
+    "settings": {
+        "import/resolver": {
+            "typescript": {}
+        }
+    }
+}
